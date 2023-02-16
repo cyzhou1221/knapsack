@@ -1,0 +1,43 @@
+Sender: LSF System <lsfadmin@a6u12n02>
+Subject: Job 820743: <inputFile43_s> in cluster <cluster1> Done
+
+Job <inputFile43_s> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 08:13:48 2021
+Job was executed on host(s) <a6u12n02>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 09:07:25 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 09:07:25 2021
+Terminated at Sat May 22 09:59:12 2021
+Results reported at Sat May 22 09:59:12 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_s testset/inputFile43.csv results/txt/outputFile43_s.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3092.48 sec.
+    Max Memory :                                 79 MB
+    Average Memory :                             75.22 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   3116 sec.
+    Turnaround time :                            6324 sec.
+
+The output (if any) follows:
+
+Read problem from: testset/inputFile43.csv
+SEQ: The node processing's real time is: 3102 secs, CPU time is: 3091.42 secs, nodes count is: 20518643
+
+
+PS:
+
+Read file <results/err/testFile43_s.err> for stderr output of this job.
+

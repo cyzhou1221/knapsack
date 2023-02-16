@@ -1,0 +1,43 @@
+Sender: LSF System <lsfadmin@c1u24n01>
+Subject: Job 820727: <inputFile35_s> in cluster <cluster1> Done
+
+Job <inputFile35_s> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 08:13:47 2021
+Job was executed on host(s) <c1u24n01>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 09:07:24 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 09:07:24 2021
+Terminated at Sat May 22 09:10:34 2021
+Results reported at Sat May 22 09:10:34 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_s testset/inputFile35.csv results/txt/outputFile35_s.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   180.21 sec.
+    Max Memory :                                 6 MB
+    Average Memory :                             5.38 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   201 sec.
+    Turnaround time :                            3407 sec.
+
+The output (if any) follows:
+
+Read problem from: testset/inputFile35.csv
+SEQ: The node processing's real time is: 181 secs, CPU time is: 180.13 secs, nodes count is: 1287593
+
+
+PS:
+
+Read file <results/err/testFile35_s.err> for stderr output of this job.
+

@@ -1,0 +1,43 @@
+Sender: LSF System <lsfadmin@a6u12n04>
+Subject: Job 820673: <inputFile8_s> in cluster <cluster1> Done
+
+Job <inputFile8_s> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 08:13:46 2021
+Job was executed on host(s) <a6u12n04>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 09:07:25 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 09:07:25 2021
+Terminated at Sat May 22 09:42:48 2021
+Results reported at Sat May 22 09:42:48 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_s testset/inputFile8.csv results/txt/outputFile8_s.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2110.93 sec.
+    Max Memory :                                 48 MB
+    Average Memory :                             45.45 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   2132 sec.
+    Turnaround time :                            5342 sec.
+
+The output (if any) follows:
+
+Read problem from: testset/inputFile8.csv
+SEQ: The node processing's real time is: 2117 secs, CPU time is: 2110.26 secs, nodes count is: 15054457
+
+
+PS:
+
+Read file <results/err/testFile8_s.err> for stderr output of this job.
+

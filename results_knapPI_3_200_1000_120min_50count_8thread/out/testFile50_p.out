@@ -1,0 +1,44 @@
+Sender: LSF System <lsfadmin@c6u22n02>
+Subject: Job 820758: <inputFile50_p> in cluster <cluster1> Done
+
+Job <inputFile50_p> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 08:13:48 2021
+Job was executed on host(s) <36*c6u22n02>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 10:54:18 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 10:54:18 2021
+Terminated at Sat May 22 12:29:02 2021
+Results reported at Sat May 22 12:29:02 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_p testset/inputFile50.csv results/txt/outputFile50_p.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30317.63 sec.
+    Max Memory :                                 748 MB
+    Average Memory :                             711.40 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   6 MB
+    Max Processes :                              3
+    Max Threads :                                12
+    Run time :                                   5684 sec.
+    Turnaround time :                            15314 sec.
+
+The output (if any) follows:
+
+Max threads count is: 8
+Read problem from: testset/inputFile50.csv
+PAR: The node processing's real time is: 5682 secs, CPU time is: 30316.4 secs, nodes count is: 176321643
+
+
+PS:
+
+Read file <results/err/testFile50_p.err> for stderr output of this job.
+
