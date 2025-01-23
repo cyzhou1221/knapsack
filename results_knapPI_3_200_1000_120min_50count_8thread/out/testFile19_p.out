@@ -1,0 +1,44 @@
+Sender: LSF System <lsfadmin@a6u22n04>
+Subject: Job 820696: <inputFile19_p> in cluster <cluster1> Done
+
+Job <inputFile19_p> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 08:13:47 2021
+Job was executed on host(s) <36*a6u22n04>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 09:21:18 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 09:21:18 2021
+Terminated at Sat May 22 09:23:23 2021
+Results reported at Sat May 22 09:23:23 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_p testset/inputFile19.csv results/txt/outputFile19_p.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   667.74 sec.
+    Max Memory :                                 14 MB
+    Average Memory :                             13.25 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   3 MB
+    Max Processes :                              3
+    Max Threads :                                12
+    Run time :                                   125 sec.
+    Turnaround time :                            4176 sec.
+
+The output (if any) follows:
+
+Max threads count is: 8
+Read problem from: testset/inputFile19.csv
+PAR: The node processing's real time is: 125 secs, CPU time is: 667.7 secs, nodes count is: 3918381
+
+
+PS:
+
+Read file <results/err/testFile19_p.err> for stderr output of this job.
+

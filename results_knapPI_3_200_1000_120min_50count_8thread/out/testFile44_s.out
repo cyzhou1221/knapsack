@@ -1,0 +1,43 @@
+Sender: LSF System <lsfadmin@a6u12n02>
+Subject: Job 820745: <inputFile44_s> in cluster <cluster1> Done
+
+Job <inputFile44_s> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 08:13:48 2021
+Job was executed on host(s) <a6u12n02>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 09:07:25 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 09:07:25 2021
+Terminated at Sat May 22 10:43:22 2021
+Results reported at Sat May 22 10:43:22 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_s testset/inputFile44.csv results/txt/outputFile44_s.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5728.91 sec.
+    Max Memory :                                 128 MB
+    Average Memory :                             122.51 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   5765 sec.
+    Turnaround time :                            8974 sec.
+
+The output (if any) follows:
+
+Read problem from: testset/inputFile44.csv
+SEQ: The node processing's real time is: 5751 secs, CPU time is: 5726.9 secs, nodes count is: 38011971
+
+
+PS:
+
+Read file <results/err/testFile44_s.err> for stderr output of this job.
+

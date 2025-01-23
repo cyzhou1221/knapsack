@@ -1,0 +1,43 @@
+Sender: LSF System <lsfadmin@a3u26n02>
+Subject: Job 822102: <inputFile2_s> in cluster <cluster1> Done
+
+Job <inputFile2_s> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 16:22:57 2021
+Job was executed on host(s) <a3u26n02>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 16:22:58 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 16:22:58 2021
+Terminated at Sat May 22 16:34:43 2021
+Results reported at Sat May 22 16:34:43 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_s testset/inputFile2.csv results_knapPI_3_200_1000_120min_50count/txt/outputFile2_s.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   702.62 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             19.87 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   705 sec.
+    Turnaround time :                            706 sec.
+
+The output (if any) follows:
+
+Read problem from: testset/inputFile2.csv
+SEQ: The node processing's real time is: 704 secs, CPU time is: 702.3 secs, nodes count is: 6386731
+
+
+PS:
+
+Read file <results_knapPI_3_200_1000_120min_50count/err/testFile2_s.err> for stderr output of this job.
+

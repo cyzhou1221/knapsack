@@ -1,0 +1,44 @@
+Sender: LSF System <lsfadmin@c6u22n01>
+Subject: Job 822161: <inputFile31_p> in cluster <cluster1> Done
+
+Job <inputFile31_p> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 16:22:59 2021
+Job was executed on host(s) <36*c6u22n01>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 21:26:53 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 21:26:53 2021
+Terminated at Sat May 22 21:27:06 2021
+Results reported at Sat May 22 21:27:06 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_p testset/inputFile31.csv results_knapPI_3_200_1000_120min_50count/txt/outputFile31_p.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   118.99 sec.
+    Max Memory :                                 5 MB
+    Average Memory :                             4.75 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   9 MB
+    Max Processes :                              3
+    Max Threads :                                24
+    Run time :                                   13 sec.
+    Turnaround time :                            18247 sec.
+
+The output (if any) follows:
+
+Max threads count is: 36
+Read problem from: testset/inputFile31.csv
+PAR: The node processing's real time is: 13 secs, CPU time is: 118.95 secs, nodes count is: 693071
+
+
+PS:
+
+Read file <results_knapPI_3_200_1000_120min_50count/err/testFile31_p.err> for stderr output of this job.
+

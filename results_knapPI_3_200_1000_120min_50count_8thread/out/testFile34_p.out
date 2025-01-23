@@ -1,0 +1,44 @@
+Sender: LSF System <lsfadmin@a3u08n01>
+Subject: Job 820726: <inputFile34_p> in cluster <cluster1> Done
+
+Job <inputFile34_p> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 08:13:47 2021
+Job was executed on host(s) <36*a3u08n01>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 10:06:30 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 10:06:30 2021
+Terminated at Sat May 22 10:35:11 2021
+Results reported at Sat May 22 10:35:11 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_p testset/inputFile34.csv results/txt/outputFile34_p.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9147.67 sec.
+    Max Memory :                                 159 MB
+    Average Memory :                             150.92 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                12
+    Run time :                                   1721 sec.
+    Turnaround time :                            8484 sec.
+
+The output (if any) follows:
+
+Max threads count is: 8
+Read problem from: testset/inputFile34.csv
+PAR: The node processing's real time is: 1720 secs, CPU time is: 9147.27 secs, nodes count is: 51792541
+
+
+PS:
+
+Read file <results/err/testFile34_p.err> for stderr output of this job.
+

@@ -1,0 +1,43 @@
+Sender: LSF System <lsfadmin@c1u19n04>
+Subject: Job 820721: <inputFile32_s> in cluster <cluster1> Done
+
+Job <inputFile32_s> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 08:13:47 2021
+Job was executed on host(s) <c1u19n04>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 09:07:30 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 09:07:30 2021
+Terminated at Sat May 22 09:07:48 2021
+Results reported at Sat May 22 09:07:48 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_s testset/inputFile32.csv results/txt/outputFile32_s.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.59 sec.
+    Max Memory :                                 2 MB
+    Average Memory :                             1.80 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   30 sec.
+    Turnaround time :                            3241 sec.
+
+The output (if any) follows:
+
+Read problem from: testset/inputFile32.csv
+SEQ: The node processing's real time is: 13 secs, CPU time is: 12.55 secs, nodes count is: 93047
+
+
+PS:
+
+Read file <results/err/testFile32_s.err> for stderr output of this job.
+

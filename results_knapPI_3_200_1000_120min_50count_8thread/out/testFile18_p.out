@@ -1,0 +1,44 @@
+Sender: LSF System <lsfadmin@c6u03n01>
+Subject: Job 820694: <inputFile18_p> in cluster <cluster1> Exited
+
+Job <inputFile18_p> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 08:13:47 2021
+Job was executed on host(s) <36*c6u03n01>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 09:16:04 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 09:16:04 2021
+Terminated at Sat May 22 11:16:10 2021
+Results reported at Sat May 22 11:16:10 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_p testset/inputFile18.csv results/txt/outputFile18_p.txt
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   38504.58 sec.
+    Max Memory :                                 704 MB
+    Average Memory :                             662.35 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   3 MB
+    Max Processes :                              3
+    Max Threads :                                12
+    Run time :                                   7206 sec.
+    Turnaround time :                            10943 sec.
+
+The output (if any) follows:
+
+Max threads count is: 8
+Read problem from: testset/inputFile18.csv
+
+
+PS:
+
+Read file <results/err/testFile18_p.err> for stderr output of this job.
+

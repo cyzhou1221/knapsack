@@ -1,0 +1,43 @@
+Sender: LSF System <lsfadmin@c1u17n02>
+Subject: Job 822144: <inputFile23_s> in cluster <cluster1> Exited
+
+Job <inputFile23_s> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 16:22:58 2021
+Job was executed on host(s) <c1u17n02>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 16:50:48 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 16:50:48 2021
+Terminated at Sat May 22 18:50:56 2021
+Results reported at Sat May 22 18:50:56 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_s testset/inputFile23.csv results_knapPI_3_200_1000_120min_50count/txt/outputFile23_s.txt
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   7190.73 sec.
+    Max Memory :                                 9976 MB
+    Average Memory :                             7069.56 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   7207 sec.
+    Turnaround time :                            8878 sec.
+
+The output (if any) follows:
+
+Read problem from: testset/inputFile23.csv
+
+
+PS:
+
+Read file <results_knapPI_3_200_1000_120min_50count/err/testFile23_s.err> for stderr output of this job.
+

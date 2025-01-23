@@ -1,0 +1,43 @@
+Sender: LSF System <lsfadmin@c2u19n02>
+Subject: Job 822166: <inputFile34_s> in cluster <cluster1> Exited
+
+Job <inputFile34_s> was submitted from host <ln02> by user <pq> in cluster <cluster1> at Sat May 22 16:22:59 2021
+Job was executed on host(s) <c2u19n02>, in queue <batch>, as user <pq> in cluster <cluster1> at Sat May 22 16:57:51 2021
+</share/home/pq> was used as the home directory.
+</share/home/pq/changyu/knapsack> was used as the working directory.
+Started at Sat May 22 16:57:51 2021
+Terminated at Sat May 22 18:57:53 2021
+Results reported at Sat May 22 18:57:53 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./BestFirstSearch_s testset/inputFile34.csv results_knapPI_3_200_1000_120min_50count/txt/outputFile34_s.txt
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   7183.73 sec.
+    Max Memory :                                 159 MB
+    Average Memory :                             150.47 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   7201 sec.
+    Turnaround time :                            9294 sec.
+
+The output (if any) follows:
+
+Read problem from: testset/inputFile34.csv
+
+
+PS:
+
+Read file <results_knapPI_3_200_1000_120min_50count/err/testFile34_s.err> for stderr output of this job.
+
